@@ -7,3 +7,4 @@ Lai atvērtu .drawio failus, saglabājat tos uz jūsu datora, apmeklējat [draw.
 ## 1. Semestris: 
 ### 1. Python pamati, ievade, izvade
 ### 2. Saraksti, cikli
+### 3. Atkļūdošana, cikli
