@@ -48,6 +48,8 @@ for iii in range(0, len(keys)):
 
 # (i/ni)
 #Uzdevums: Uzrakstat programmu, kurā lietotājs ievada vairāku cilvēku datus
-#(vārds; uzvārds, vecums). Indiv. cilvēka dati jāsaglabā vārdnīcā. Visu
-#cilvēku datus varat apvienot datu struktūrā pēc jūsu izvēles.
-#Izvadat visu ievadīto cilvēku informāciju.
+# (vārds; uzvārds, vecums). Visiem laukiem jābūt atsevišķi 
+# (t.i. neapvienojat vārdu un uzvārdu).
+# Individuālu cilvēka dati jāsaglabā vārdnīcā.
+# Visu cilvēku datus varat apvienot datu struktūrā pēc jūsu izvēles.
+# Izvadat visu ievadīto cilvēku informāciju.
