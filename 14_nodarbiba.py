@@ -75,13 +75,13 @@ print(lidmasina.atrums)
 # * Šai klasei jāglabā informācija par lietotājam pieejamajiem naudas līdzekļiem.
 # * Izveidojat funkcijas, kas ļauj ieskaitīt un/vai izņemt naudu no konta
 # * Neļaut lietotājam izņemt naudu, 
-#   ja kontā ir zem €50
+#   ja kontā pēc izņemšanas paliek zem €50
 # Izveidojat apakšklasi "Krājkonts" (manto no "Bankas konts").
 # * Izmantot polimorfismu lai pārrakstītu izņemšanas funkciju,
 #   lai tā kopā ar izņemto naudu izņem vēl 5%
 #   (t.i. izņemot €100, izņems €105).
+
 # Izveidojat objektus no šīm klasēm
-# 
 # Izsaucat pirmās klases ieskaitīšanas funkciju (€100),
 #   izsaucat izņemšanas funkciju €60.
 # Izsaucat otrās klases ieskaitīšanas funkciju (€100), 
