@@ -2,7 +2,7 @@
     # def vardsViens:
     # def vards_divi:
 
-# Klase -- skice, kā izvietot un strādāt ar datiem
+# Klase -- skice/abstrakcija, kā izvietot un strādāt ar datiem
 class Automasina:
     krasa :str = ""
     marka :str = ""
