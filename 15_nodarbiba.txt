@@ -19,7 +19,8 @@ Izveidojat objektus, kas satur visus dotos datus
 Izveidojat funkciju, kura izvada objekta (darbinieka) datus
 Izveidojat funkciju, kas aprēķina cik daudz naudas ir izmaksāts darbiniekam
 
-3. Izveidojat klasi "Darbinieks". Šī klase satur informāciju par vārdu, uzvārdu, stāžu (mēnesī),
+3. Izveidojat klasi "Darbinieks". Šī klase satur informāciju par vārdu, uzvārdu, 
+stāžu (mēnesī),
 algu, un amatu. Jānodefinē funkcija 'aprēķiniBonusu', ka izvada 0, un 'aprēķiniKopAlgu', 
 kas izvada algas un stāža reizinājumu + bonuss.
 Lai aprēķinātu bonusu, izveidojat apakšklases sekojošajiem darbinieku amatiem - 
