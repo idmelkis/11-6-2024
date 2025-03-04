@@ -9,6 +9,10 @@ Lai atrastu dokumentāciju, meklēja Google "Vaicājuma_tips" + SQLite, piemēra
 
 * Tabulas Izveide: CREATE TABLE
 * Datu ievietošana tabulā: INSERT
+* Atjaunināšana: UPDATE
+* Dzēšana: DELETE
+* Tabulas dzēšana: DROP TABLE
+* Datu iegūšana: SELECT
 
 Komentāri:
 ```sql
