@@ -71,4 +71,19 @@ Uzdevums (turpinājums):
 * Izveidot tabulu projekts, kurš satur informāciju par projekta nosaukumu un identifikatoru.
 * Realizēt darbinieku saistību ar vairākiem projektiem (many-to-many attiecība).
 
-Nākošajā stundā - Risinājums uzdevumam, Praktiskie uzdevumi, Joins, Unions
+```sql
+CREATE TABLE IF NOT EXISTS "Projekts" (
+    Id INTEGER NOT NULL UNIQUE,
+    Nosaukums TEXT,
+    PRIMARY KEY ("ID" AUTOINCREMENT)
+);
+
+CREATE TABLE IF NOT EXISTS "DarbiniekaProjekts" (
+    DarbinieksId INTEGER NOT NULL UNIQUE,
+    ProjektsId INTEGER NOT NULL UNIQUE,
+    CONSTRAINT "Darbinieks" FOREIGN KEY("DarbinieksId") REFERENCES "Darbinieks"("Id"),
+    CONSTRAINT "Projekts" FOREIGN KEY("ProjektsId") REFERENCES "Projekts"("Id")
+);
+```
+
+Nākošajā stundā - Risinājums uzdevumam, Joins, Unions, Praktiskie uzdevumi 
