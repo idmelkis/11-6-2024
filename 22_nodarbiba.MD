@@ -43,11 +43,11 @@ GROUP BY a.PlaylistId
 SELECT BillingCountry, count(BillingCountry) FROM Invoice GROUP BY BillingCountry ORDER BY count(BillingCountry) DESC
 ```
 
-# I/ni darbs
-Dotas 15min. 2 Vaicājumi - jāatbilst nosacījumiem!
+# i/ni darbs
+Dotas 15min. 3 Vaicājumi - jāatbilst nosacījumiem!
 
 1. Uzrakstat vaicājumu, kas izvada visus māksliniekus (tabula `Artist`) kuru nosaukumā ir vārds "Black" (kolona `Name`)
 2. Uzrakstat vaicājumu, kas izvada nosaukumu un garumu (sekundēs) visām dziesmām (tabula `Track`), kuras ir garākas par 1min (kolona - Miliseconds). Piezīme - tabulā dati ir milisekundēs, izvadē jāpārveido uz sekundēm.
-3. Uzrakstīt vaicājumu, kas izvada visas dziesmu (tabula `Track`) cenu kategorijas (hint - tādas ir divas, kolona `UnitPrice`), un cik daudz dziesmas ir šajā kategorijā.
+3. Uzrakstīt vaicājumu, kas izvada visas dziesmu (tabula `Track`) cenu grupas (hint - tādas ir divas, kolona `UnitPrice`), un cik daudz dziesmas ir šajā grupā.
 
 Iesniegt e-klasē pie šīs stundas. Iesniegt kā .txt vai .sql failu.
